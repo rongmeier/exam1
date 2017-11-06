@@ -1,0 +1,139 @@
+body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: .12rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+html{
+    max-width: 640px;
+    min-width: 320px;
+}
+header{ 
+    position: relative;
+    height:.4rem;
+    background-color: #fff;
+}
+.back{
+    position: absolute;
+    left: .1rem;
+    top:.1rem;
+    font-size: .14rem;
+}
+h1{
+    line-height: .4rem;
+    text-align: center;
+    font-weight: normal;
+    color: #df3348;
+}
+.head-right{
+    position: absolute;
+    top:0;
+    right:.1rem;
+    display: flex;
+}
+.head-right div{
+    display: flex;
+    flex-direction: column;
+    margin:.05rem;
+}
+.head-right div i{
+    font-size: .18rem;
+}
+section{
+    flex: 1;
+    overflow-y: scroll;
+}
+.nav{
+    background-color: #fff;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 1px solid #e8e8e8;
+}
+.nav dl{
+    flex-basis: 25%;
+    box-sizing: border-box;
+    margin:.05rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.nav dl dt{
+    font-size: .28rem;
+    color: #df3448;
+}
+.nav dl dd p{
+    line-height: .2rem;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-top: .1rem;
+    text-align: center;
+}
+.banner div{
+    box-sizing: border-box;
+    flex-basis: 25%;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    padding:.05rem;
+}
+.banner div dl dd{
+    line-height: .3rem;
+}
+.banner div:nth-of-type(5),.banner div:nth-of-type(7){
+    line-height: .2rem;
+}
+.banner div:nth-of-type(6){
+    flex-basis: 50%;
+    line-height: 0
+}
+.banner div:nth-of-type(6) img{
+    height: .5rem;
+}
+.pic{
+    margin-top:.1rem;
+    margin-bottom:.1rem;
+}
+.pic img{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.content{
+    background-color: #fff;
+    display: flex;
+}
+.content-left{
+    flex-basis: 30%;
+}
+.content-left h3{
+    color: #e45969;
+}
+.content-right{
+    flex-basis: 70%;
+    text-align: center;
+}
+.content-right h3{
+    color: #88c28b;
+}
+footer{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.664);
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+}
+footer div{
+    flex-basis: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer div i{
+    font-size: .16rem!important;
+}
